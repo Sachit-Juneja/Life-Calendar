@@ -1,1 +1,0 @@
-npm install vite @vitejs/plugin-react-swc
