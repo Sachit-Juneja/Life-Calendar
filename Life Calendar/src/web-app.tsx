@@ -3,10 +3,10 @@ import { Tooltip } from "react-tooltip";
 // If the above import throws error use yarn or npm and run the below commmand
 // npm install react-tooltip
 
-import "./App.css";
-import Day from "../../src/components/day";
-import { generateDateArray } from "../../src/utils/gendays";
-import Header from "../../src/components/header";
+import "./web-app.css";
+import Day from "./components/day";
+import { generateDateArray } from "./utils/gendays";
+import Header from "./components/header";
 
 function App() {
   const days = generateDateArray();
