@@ -1,5 +1,8 @@
 import { useRef } from "react";
 import { Tooltip } from "react-tooltip";
+// If the above import throws error use yarn or npm and run the below commmand
+// npm install react-tooltip
+
 import "./App.css";
 import Day from "./components/day";
 import { generateDateArray } from "./utils/gendays";
