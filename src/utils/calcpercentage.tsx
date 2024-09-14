@@ -1,4 +1,6 @@
 import { addDays } from "date-fns";
+// If above import command does not work, run the below commands:
+// npm install date-fns && npm install -D @types/date-fns
 
 function calculateElapsedPercentage(): string {
   const birth = new Date("2005-05-13");
