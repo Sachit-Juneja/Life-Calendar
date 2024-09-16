@@ -1,6 +1,6 @@
 function generatePastBirthdays() {
     const birthYear = 2005 + 1;
-    const birthMonth = 2;
+    const birthMonth = 5;
     const birthDay = 13;
   
     const today = new Date();
@@ -34,7 +34,8 @@ function generatePastBirthdays() {
     },
     "2014-10-31": {
       summary: "Started going to Gems Modern Academy for schooling.",
-    }
+    },
+    "2024-06-30": {summary: "Got my UAE Driving license."}
     // Lots more to be added.  
   };
   
